@@ -49,7 +49,7 @@ const TestimonialCard = ({
 };
 
 const Quote = () => (
-  <img src="../../images/bg-pattern-quotation.svg" className="quote" />
+  <img src="../../public/assets/bg-pattern-quotation.svg" className="quote" />
 );
 
 export default TestimonialCard;
