@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  max-width: 31rem;
+  padding: 1.65rem;
+  padding-bottom: 20px;
+  border-radius: 0.75rem;
+  color: #fff;
+  background-color: #7140c2;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.cardDetails {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardImage {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.cardName {
+  font-weight: bold;
+}
+
+.CardDetailsContainer {
+  margin: 1.75rem 0;
+}
+
+.cardTitle {
+  margin-top: -2px;
+  opacity: 0.5;
+  font-size: 0.88rem;
+}
+
+.CardDetailsTitle {
+  width: 100%;
+  line-height: 1.25;
+}
+
+.CardDetailsBody {
+  line-height: 1.5;
+  margin-top: 1.5rem;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+}
+
+.quote {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 5rem;
+  width: 150px;
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 75em) {
+  .card {
+    max-width: none;
+  }
+}
